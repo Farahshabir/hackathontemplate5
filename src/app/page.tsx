@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import TopNav from "./components/topnav";
 import Header from "./components/header";
 import Banner from "./components/banner";

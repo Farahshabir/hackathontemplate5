@@ -1,4 +1,4 @@
-'use client'; 
+"use client"; 
 
 import { useState } from "react"; 
 import { FaRegUser } from "react-icons/fa";
@@ -45,10 +45,10 @@ export default function Header() {
               </a>
               {/* <div className="absolute left-0 hidden mt-2 space-y-2 bg-[#252B42] text-white group-hover:block">
                 <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-                  Men's Clothing
+                  Men&apos;s Clothing
                 </a>
                 <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-                  Women's Clothing
+                  Women&apos;s Clothing
                 </a>
                 <a href="#" className="block px-4 py-2 hover:bg-gray-700">
                   Accessories

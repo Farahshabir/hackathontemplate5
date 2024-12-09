@@ -22,7 +22,7 @@ export default function Editor (){
         <div className="max-w-[510px]">
           <Image
             src={carditem1}
-            alt="Men's Clothing"
+            alt=""
             className="w-full h-auto"
           />
         </div>
@@ -31,7 +31,7 @@ export default function Editor (){
         <div className="max-w-[300px]">
           <Image
             src={carditem2}
-            alt="Women's Clothing"
+            alt=""
             className="w-full h-auto"
           />
         </div>
@@ -45,7 +45,7 @@ export default function Editor (){
           />
           <Image
             src={carditem4}
-            alt="Kids' Clothing"
+            alt=""
             className="w-full h-auto mt-4"
           />
         </div>

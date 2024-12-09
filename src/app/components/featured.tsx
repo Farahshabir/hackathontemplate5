@@ -28,9 +28,9 @@ export default function Featured() {
                     <span className="text-[#737373]">Trending</span>
                     <span className="text-[#737373]">New</span>
               </div>
-              <h3 className="ml-2 text-2xl">Loudest à la Madison #1 (L'integral)</h3>
+              <h3 className="ml-2 text-2xl">Loudest à la Madison #1 (L&apos;integral)</h3>
               <p className="text-[#737373] text-sm ml-2 space-x-2 w-[280px]">
-                We focus on ergonomics and meeting you where you work. It's only
+                We focus on ergonomics and meeting you where you work. It&apos;s only
                 a keystroke away.
               </p>
               <div className="flex">
@@ -55,9 +55,9 @@ export default function Featured() {
                     <span className="text-[#737373]">Trending</span>
                     <span className="text-[#737373]">New</span>
               </div>
-              <h3 className="ml-2 text-2xl">Loudest à la Madison #1 (L'integral)</h3>
+              <h3 className="ml-2 text-2xl">Loudest à la Madison #1 (L&apos;integral)</h3>
               <p className="text-[#737373] text-sm ml-2 space-x-2 w-[280px]">
-                We focus on ergonomics and meeting you where you work. It's only
+                We focus on ergonomics and meeting you where you work. It&apos;s only
                 a keystroke away.
               </p>
               <div className="flex">
@@ -82,9 +82,9 @@ export default function Featured() {
                     <span className="text-[#737373]">Trending</span>
                     <span className="text-[#737373]">New</span>
               </div>
-              <h3 className="ml-2 text-2xl">Loudest à la Madison #1 (L'integral)</h3>
+              <h3 className="ml-2 text-2xl">Loudest à la Madison #1 (L&apos;integral)</h3>
               <p className="text-[#737373] text-sm ml-2 space-x-2 w-[280px]">
-                We focus on ergonomics and meeting you where you work. It's only
+                We focus on ergonomics and meeting you where you work. It&apos;s only
                 a keystroke away.
               </p>
               <div className="flex">

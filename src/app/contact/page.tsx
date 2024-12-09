@@ -131,8 +131,8 @@ export default function Contact() {
       </div>
       <div className="justify-self-center mt-6">
         <div className="justify-center ml-28"><span className="text-[#23A6F0] text-4xl"><PiArrowBendRightDownBold /></span></div>
-        <div className="ml-6"><p>WE CAN'T WAIT TO MEET YOU</p></div>
-        <div className="ml-4"><h1 className="text-6xl">Let's Talk</h1></div>
+        <div className="ml-6"><p>WE CAN&apos;T WAIT TO MEET YOU</p></div>
+        <div className="ml-4"><h1 className="text-6xl">Let&apos;s Talk</h1></div>
         <div className="w-[186px] h-[52px] bg-[#23A6F0] rounded-lg ml-10 mt-2"><button className="text-white py-2 px-8 ">Try it free now</button></div>
       </div>
 
