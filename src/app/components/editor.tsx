@@ -10,7 +10,7 @@ export default function Editor (){
     <div className="flex flex-col items-center justify-center p-8">
       {/* Section Title */}
       <div className="text-center mb-6">
-        <h1 className="text-4xl font-bold">EDITOR'S PICK</h1>
+        <h1 className="text-4xl font-bold">EDITOR&apos;S PICK</h1>
         <p className="text-lg text-[#737373] mt-2">
           Problems trying to resolve the conflict between
         </p>
