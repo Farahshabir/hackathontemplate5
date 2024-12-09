@@ -4,103 +4,79 @@ import { FaTwitter } from "react-icons/fa";
 export default function Footer(){
     return(
         <>
- <footer className="bg-white py-8 px-6 font-sans tracking-wide">
-  {/* Footer Header Section */}
-  <div className="flex items-center justify-around space-x-96 mb-6 bg-[#FAFAFA] h-[142px]">
-    <h2 className="text-xl font-bold text-[#333]">Bandage</h2>
-    <div className="flex space-x-3">
-      <a href="#" className="text-[#23A6F0] hover:text-blue-600 text-lg">
-        <FaFacebook />
-      </a>
-      <a href="#" className="text-[#23A6F0] hover:text-blue-600 text-lg">
-        <FaInstagram />
-      </a>
-      <a href="#" className="text-[#23A6F0] hover:text-blue-600 text-lg">
-        <FaTwitter />
-      </a>
-    </div>
-  </div>
+ <div>
+        <div className="w-[1050px] h-[138px] pt-8 justify-self-center mt-8">
+            <div><h1 className="text-2xl font-bold">Bandage</h1></div>
+            <div className="flex float-right gap-4 -mt-5 ">
+               <div><span className="text-[#23A6F0] text-2xl"><FaFacebook /></span></div>
+               <div><span className="text-[#23A6F0] text-2xl"><FaInstagram /></span></div>
+               <div><span className="text-[#23A6F0] text-2xl"><FaTwitter /></span></div>
+            </div>
+        </div>
+        <div className="pl-2 flex w-[1050px] h-[300px] pt-8 gap-10 justify-self-center">
+        <div className="w-[148px] h-[170px]">
+            <div><h2 className="font-bold">Company Info</h2></div>
+            <div>
+                <ul className="text-[#737373] leading-loose">
+                    <li>About Us</li>
+                    <li>Carrier</li>
+                    <li>We are hiring</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+        </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 ">
+        <div className="w-[148px] h-[170px]">
+        <div><h2 className="font-bold">Legal</h2></div>
+            <div>
+            <ul className="text-[#737373] leading-loose">
+                    <li>About Us</li>
+                    <li>Carrier</li>
+                    <li>We are hiring</li>
+                    <li>Blog</li>
+                </ul> 
+            </div>
+        </div>
 
-    {/* Company Info */}
-    <div>
-      <h4 className="text-md font-semibold text-[#333]">Company Info</h4>
-      <ul className="space-y-1">
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">About Us</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Career</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">We Are Hiring</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Blog</a></li>
-      </ul>
-    </div>
+        <div className="w-[148px] h-[170px]">
+            <div><h2 className="font-bold">Features</h2></div>
+            <div>
+            <ul className="text-[#737373] leading-loose">
+                    <li>Buiness Marketing</li>
+                    <li>User Analytic</li>
+                    <li>Live Chat</li>
+                    <li>Unlimited Support</li>
+                </ul>
+            </div>
+        </div>
 
-    {/* Legal */}
-    <div>
-      <h4 className="text-md font-semibold text-[#333]">Legal</h4>
-      <ul className="space-y-1">
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Privacy Policy</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Terms of Service</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Refund Policy</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Cookie Policy</a></li>
-      </ul>
-    </div>
+        <div className="w-[148px] h-[170px]">
+            <div><h2 className="font-bold">Resources</h2></div>
+            <div>
+            <ul className="text-[#737373] leading-loose">
+                    <li>IOS & Android</li>
+                    <li>Watch a Demo</li>
+                    <li>Customers</li>
+                    <li>API</li>
+                </ul>
+            </div>
+        </div>
 
-    {/* Features */}
-    <div>
-      <h4 className="text-md font-semibold text-[#333]">Features</h4>
-      <ul className="space-y-1">
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Business Marketing</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">User Analytics</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Live Chat</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Unlimited Support</a></li>
-      </ul>
-    </div>
-
-    {/* Resources */}
-    <div>
-      <h4 className="text-md font-semibold text-[#333]">Resources</h4>
-      <ul className="space-y-1">
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">IOS & Android</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Watch a Demo</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Customers</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">API</a></li>
-      </ul>
-    </div>
-
-    {/* Get In Touch */}
-    <div>
-      <h4 className="text-md font-semibold text-[#333]">Get In Touch</h4>
-      <ul className="space-y-1">
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Contact Us</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Support</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">FAQ</a></li>
-        <li><a href="#" className="text-gray-600 hover:text-blue-600 text-sm">Sitemap</a></li>
-      </ul>
-    </div>
-
-    {/* Newsletter Subscription */}
-    <div>
-      <h4 className="text-md font-semibold text-[#333]">Subscribe to Our Newsletter</h4>
-      <form action="" className="flex flex-col">
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          className="px-4 py-2 mb-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#23A6F0] focus:border-[#23A6F0] text-sm"
-        />
-        <button className="bg-[#23A6F0] text-white py-2 rounded-lg hover:bg-[#1a8ab8] transition duration-300 text-sm">
-          Subscribe
-        </button>
-        <p className="mt-2 text-sm text-gray-600">Stay updated with the latest news and offers.</p>
-      </form>
-    </div>
-    <div className="bg-[#FAFAFA] h-[50px] w-[1290px]">
-    <p className="ml-36 text-gray-600	">Made With Love By Finland All Right Reserved</p>
- 
-    </div>
-
-  </div>
-</footer>
+        <div className="w-[148px] h-[170px]">
+            <div><h2 className="font-bold">Get In Touch</h2></div>
+            
+            <div className="w-[321px] h-[58px] ">
+                <form action="#">
+                <input className="ltr h-[58px] w-[190px] bg-[#F9F9F9] text-[#737373] border border-[#E6E6E6]" type="email" name="email" placeholder="Your Email" />
+                <button className="bg-[#23A6F0] text-[#FFFFFF] h-[58px] w-[90px] rounded-r-lg">Subscribe</button>
+            </form></div>
+            <div><p className="text-[#737373] text-sm">Lorm imp sum doler Amit</p></div>
+        </div>
+        </div>
+        <div className="bg-[#FAFAFA] text-[#737373] w-[1050px] h-[80px] pt-6 justify-self-center">
+           <p>Made With Love By Finland All Right Reserved</p>
+        </div>
+      </div>
 
 
 
