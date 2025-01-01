@@ -3,7 +3,7 @@ import TopNav from "./components/topnav";
 import Header from "./components/header";
 import Banner from "./components/banner";
 import Editor from "./components/editor";
-import BestSeller from "./components/bestseller";
+import Shop from "./components/shop";
 import ClassicProduct from "./components/classicproduct";
 import Neural from "./components/neural";
 import Featured from "./components/featured";
@@ -15,7 +15,7 @@ export default function Home() {
      <Header/>
      <Banner/>
      <Editor/>
-     <BestSeller/>
+     <Shop/>
      <ClassicProduct/>
      <Neural/>
      <Featured/>

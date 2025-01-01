@@ -5,9 +5,7 @@ export default function ClassicProduct() {
     <>
       <div className="bg-[#23856D] w-full max-w-[1349px] h-[702px] p-6 flex justify-between items-center">
         <div className="space-y-2 w-[400px] ml-24 ">
-          <p className="text-white text-sm font-medium mb-10">
-            SUMMER 2020
-          </p>
+          <p className="text-white text-sm font-medium mb-10">SUMMER 2020</p>
           <h4 className="text-white text-6xl font-bold">
             Vita Classic Product
           </h4>

@@ -13,7 +13,6 @@ import { PiArrowBendRightDownBold } from "react-icons/pi";
 
 import hero from "@/app/images/hero.png";
 
-
 export default function Contact() {
   return (
     <>
@@ -98,118 +97,208 @@ export default function Contact() {
 
       <div>
         <div className="justify-self-center mb-6">
-        <div><p className="ml-32">VISIT OUR OFFICE</p></div>
-        <div className="justify-center"><h1 className="text-4xl text-[#252B42]">We help small businesses</h1></div>
-        <div className="justify-center"><h1 className="text-4xl text-[#252B42] ml-20">with big ideas</h1></div>
+          <div>
+            <p className="ml-32">VISIT OUR OFFICE</p>
+          </div>
+          <div className="justify-center">
+            <h1 className="text-4xl text-[#252B42]">
+              We help small businesses
+            </h1>
+          </div>
+          <div className="justify-center">
+            <h1 className="text-4xl text-[#252B42] ml-20">with big ideas</h1>
+          </div>
         </div>
         <div className="flex justify-center">
-            <div className="w-[329px] h-[403px] pt-16">
-                <div className="justify-self-center mt-1"><span className="text-[#23A6F0] text-6xl"><IoCallOutline /></span></div>
-                <div className="justify-self-center mt-1"><p>georgia.young@example.com</p></div>
-                <div className="justify-self-center"><p>georgia.young@ple.com</p></div>
-                <div className="justify-self-center"><p>Get Support</p></div>
-                <div className="justify-self-center mt-2"><button className="text-[#23A6F0] w-[193px] h-[54px] rounded-3xl border-solid border-2 border-[#23A6F0]">Submit Request</button></div>
+          <div className="w-[329px] h-[403px] pt-16">
+            <div className="justify-self-center mt-1">
+              <span className="text-[#23A6F0] text-6xl">
+                <IoCallOutline />
+              </span>
             </div>
-            <div className="bg-[#252B42] w-[329px] h-[403px] pt-16">
-            <div className="justify-self-center mt-1"><span className="text-[#23A6F0] text-6xl"><FaLocationDot />
-            </span></div>
-                <div className="justify-self-center mt-1"><p>georgia.young@example.com</p></div>
-                <div className="justify-self-center"><p>georgia.young@ple.com</p></div>
-                <div className="justify-self-center"><p>Get Support</p></div>
-                <div className="justify-self-center mt-2"><button className="text-[#23A6F0] w-[193px] h-[54px] rounded-3xl border-solid border-2 border-[#23A6F0]">Submit Request</button></div>
+            <div className="justify-self-center mt-1">
+              <p>georgia.young@example.com</p>
             </div>
-            <div className="w-[329px] h-[403px] pt-16">
-                <div className="justify-self-center mt-1"><span className="text-[#23A6F0] text-6xl"><FaEnvelope />
-                </span></div>
-                <div className="justify-self-center mt-1"><p>georgia.young@example.com</p></div>
-                <div className="justify-self-center"><p>georgia.young@ple.com</p></div>
-                <div className="justify-self-center"><p>Get Support</p></div>
-                <div className="justify-self-center mt-2"><button className="text-[#23A6F0] w-[193px] h-[54px] rounded-3xl border-solid border-2 border-[#23A6F0]">Submit Request</button></div>
+            <div className="justify-self-center">
+              <p>georgia.young@ple.com</p>
             </div>
+            <div className="justify-self-center">
+              <p>Get Support</p>
+            </div>
+            <div className="justify-self-center mt-2">
+              <button className="text-[#23A6F0] w-[193px] h-[54px] rounded-3xl border-solid border-2 border-[#23A6F0]">
+                Submit Request
+              </button>
+            </div>
+          </div>
+          <div className="bg-[#252B42] w-[329px] h-[403px] pt-16">
+            <div className="justify-self-center mt-1">
+              <span className="text-[#23A6F0] text-6xl">
+                <FaLocationDot />
+              </span>
+            </div>
+            <div className="justify-self-center mt-1">
+              <p>georgia.young@example.com</p>
+            </div>
+            <div className="justify-self-center">
+              <p>georgia.young@ple.com</p>
+            </div>
+            <div className="justify-self-center">
+              <p>Get Support</p>
+            </div>
+            <div className="justify-self-center mt-2">
+              <button className="text-[#23A6F0] w-[193px] h-[54px] rounded-3xl border-solid border-2 border-[#23A6F0]">
+                Submit Request
+              </button>
+            </div>
+          </div>
+          <div className="w-[329px] h-[403px] pt-16">
+            <div className="justify-self-center mt-1">
+              <span className="text-[#23A6F0] text-6xl">
+                <FaEnvelope />
+              </span>
+            </div>
+            <div className="justify-self-center mt-1">
+              <p>georgia.young@example.com</p>
+            </div>
+            <div className="justify-self-center">
+              <p>georgia.young@ple.com</p>
+            </div>
+            <div className="justify-self-center">
+              <p>Get Support</p>
+            </div>
+            <div className="justify-self-center mt-2">
+              <button className="text-[#23A6F0] w-[193px] h-[54px] rounded-3xl border-solid border-2 border-[#23A6F0]">
+                Submit Request
+              </button>
+            </div>
+          </div>
         </div>
-        
       </div>
       <div className="justify-self-center mt-6">
-        <div className="justify-center ml-28"><span className="text-[#23A6F0] text-4xl"><PiArrowBendRightDownBold /></span></div>
-        <div className="ml-6"><p>WE CAN&apos;T WAIT TO MEET YOU</p></div>
-        <div className="ml-4"><h1 className="text-6xl">Let&apos;s Talk</h1></div>
-        <div className="w-[186px] h-[52px] bg-[#23A6F0] rounded-lg ml-10 mt-2"><button className="text-white py-2 px-8 ">Try it free now</button></div>
+        <div className="justify-center ml-28">
+          <span className="text-[#23A6F0] text-4xl">
+            <PiArrowBendRightDownBold />
+          </span>
+        </div>
+        <div className="ml-6">
+          <p>WE CAN&apos;T WAIT TO MEET YOU</p>
+        </div>
+        <div className="ml-4">
+          <h1 className="text-6xl">Let&apos;s Talk</h1>
+        </div>
+        <div className="w-[186px] h-[52px] bg-[#23A6F0] rounded-lg ml-10 mt-2">
+          <button className="text-white py-2 px-8 ">Try it free now</button>
+        </div>
       </div>
 
       <div>
         <div className="w-[1050px] h-[138px] pt-8 justify-self-center mt-8">
-            <div><h1 className="text-2xl font-bold">Bandage</h1></div>
-            <div className="flex float-right gap-4 -mt-5 ">
-               <div><span className="text-[#23A6F0] text-2xl"><FaFacebook /></span></div>
-               <div><span className="text-[#23A6F0] text-2xl"><FaInstagram /></span></div>
-               <div><span className="text-[#23A6F0] text-2xl"><FaTwitter /></span></div>
+          <div>
+            <h1 className="text-2xl font-bold">Bandage</h1>
+          </div>
+          <div className="flex float-right gap-4 -mt-5 ">
+            <div>
+              <span className="text-[#23A6F0] text-2xl">
+                <FaFacebook />
+              </span>
             </div>
+            <div>
+              <span className="text-[#23A6F0] text-2xl">
+                <FaInstagram />
+              </span>
+            </div>
+            <div>
+              <span className="text-[#23A6F0] text-2xl">
+                <FaTwitter />
+              </span>
+            </div>
+          </div>
         </div>
         <div className="pl-2 flex w-[1050px] h-[300px] pt-8 gap-10 justify-self-center">
-        <div className="w-[148px] h-[170px]">
-            <div><h2 className="font-bold">Company Info</h2></div>
+          <div className="w-[148px] h-[170px]">
             <div>
-                <ul className="text-[#737373] leading-loose">
-                    <li>About Us</li>
-                    <li>Carrier</li>
-                    <li>We are hiring</li>
-                    <li>Blog</li>
-                </ul>
+              <h2 className="font-bold">Company Info</h2>
             </div>
-        </div>
-
-        <div className="w-[148px] h-[170px]">
-        <div><h2 className="font-bold">Legal</h2></div>
             <div>
-            <ul className="text-[#737373] leading-loose">
-                    <li>About Us</li>
-                    <li>Carrier</li>
-                    <li>We are hiring</li>
-                    <li>Blog</li>
-                </ul> 
+              <ul className="text-[#737373] leading-loose">
+                <li>About Us</li>
+                <li>Carrier</li>
+                <li>We are hiring</li>
+                <li>Blog</li>
+              </ul>
             </div>
-        </div>
+          </div>
 
-        <div className="w-[148px] h-[170px]">
-            <div><h2 className="font-bold">Features</h2></div>
+          <div className="w-[148px] h-[170px]">
             <div>
-            <ul className="text-[#737373] leading-loose">
-                    <li>Buiness Marketing</li>
-                    <li>User Analytic</li>
-                    <li>Live Chat</li>
-                    <li>Unlimited Support</li>
-                </ul>
+              <h2 className="font-bold">Legal</h2>
             </div>
-        </div>
-
-        <div className="w-[148px] h-[170px]">
-            <div><h2 className="font-bold">Resources</h2></div>
             <div>
-            <ul className="text-[#737373] leading-loose">
-                    <li>IOS & Android</li>
-                    <li>Watch a Demo</li>
-                    <li>Customers</li>
-                    <li>API</li>
-                </ul>
+              <ul className="text-[#737373] leading-loose">
+                <li>About Us</li>
+                <li>Carrier</li>
+                <li>We are hiring</li>
+                <li>Blog</li>
+              </ul>
             </div>
-        </div>
+          </div>
 
-        <div className="w-[148px] h-[170px]">
-            <div><h2 className="font-bold">Get In Touch</h2></div>
-            
+          <div className="w-[148px] h-[170px]">
+            <div>
+              <h2 className="font-bold">Features</h2>
+            </div>
+            <div>
+              <ul className="text-[#737373] leading-loose">
+                <li>Buiness Marketing</li>
+                <li>User Analytic</li>
+                <li>Live Chat</li>
+                <li>Unlimited Support</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="w-[148px] h-[170px]">
+            <div>
+              <h2 className="font-bold">Resources</h2>
+            </div>
+            <div>
+              <ul className="text-[#737373] leading-loose">
+                <li>IOS & Android</li>
+                <li>Watch a Demo</li>
+                <li>Customers</li>
+                <li>API</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="w-[148px] h-[170px]">
+            <div>
+              <h2 className="font-bold">Get In Touch</h2>
+            </div>
+
             <div className="w-[321px] h-[58px] ">
-                <form action="#">
-                <input className="ltr h-[58px] w-[190px] bg-[#F9F9F9] text-[#737373] border border-[#E6E6E6]" type="email" name="email" placeholder="Your Email" />
-                <button className="bg-[#23A6F0] text-[#FFFFFF] h-[58px] w-[90px] rounded-r-lg">Subscribe</button>
-            </form></div>
-            <div><p className="text-[#737373] text-sm">Lorm imp sum doler Amit</p></div>
-        </div>
+              <form action="#">
+                <input
+                  className="ltr h-[58px] w-[190px] bg-[#F9F9F9] text-[#737373] border border-[#E6E6E6]"
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                />
+                <button className="bg-[#23A6F0] text-[#FFFFFF] h-[58px] w-[90px] rounded-r-lg">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+            <div>
+              <p className="text-[#737373] text-sm">Lorm imp sum doler Amit</p>
+            </div>
+          </div>
         </div>
         <div className="bg-[#FAFAFA] text-[#737373] w-[1050px] h-[80px] pt-6 justify-self-center">
-           <p>Made With Love By Finland All Right Reserved</p>
+          <p>Made With Love By @Farah Shabir All Right Reserved</p>
         </div>
       </div>
-    
     </>
   );
 }

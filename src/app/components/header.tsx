@@ -1,16 +1,19 @@
-"use client"; 
+"use client";
 
-import { useState } from "react"; 
-import { FaRegUser } from "react-icons/fa";
-import { CiSearch } from "react-icons/ci";
-import { CiShoppingCart } from "react-icons/ci";
-import { CiHeart } from "react-icons/ci";
-import { FaChevronDown } from "react-icons/fa";
-import { FaBars } from "react-icons/fa"; 
+import { useState } from "react";
+import { FaRegUser, FaChevronDown, FaBars } from "react-icons/fa";
+import { CiSearch, CiShoppingCart, CiHeart } from "react-icons/ci";
 import Link from "next/link";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const links = [
+    { name: "Men's Clothing", path: "/mens-clothing" },
+    { name: "Women's Clothing", path: "/womens-clothing" },
+    { name: "Accessories", path: "/jewelery"},
+    { name: "Sale", path: "/sale" },
+  ];
 
   return (
     <>
@@ -31,38 +34,55 @@ export default function Header() {
         {/* Navigation Links (Desktop/Tablets) */}
         <div className="hidden md:flex relative flex-1 justify-center">
           <ul className="flex space-x-6">
-          <li><Link href={"/"} className="hover:text-gray-400">Home</Link></li>
-           
+            <li>
+              <Link href="/" className="hover:text-gray-400">
+                Home
+              </Link>
+            </li>
 
             {/* Shop Dropdown */}
             <li className="relative group">
-              <a
-                href="#"
+              <button
                 className="flex items-center space-x-2 hover:text-gray-400"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
                 <span>Shop</span>
                 <FaChevronDown className="text-sm" />
-              </a>
-              {/* <div className="absolute left-0 hidden mt-2 space-y-2 bg-[#252B42] text-white group-hover:block">
-                <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-                  Men&apos;s Clothing
-                </a>
-                <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-                  Women&apos;s Clothing
-                </a>
-                <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-                  Accessories
-                </a>
-                <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-                  Sale
-                </a>
-              </div> */}
+              </button>
+              <div className="absolute left-0 hidden mt-2 space-y-2 bg-[#252B42] text-white group-hover:block z-10">
+                {links.map((link) => (
+                  <Link
+                    key={link.name}
+                    href={link.path}
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+              </div>
             </li>
 
-          <li><Link href={"/about"}className="hover:text-gray-400">About</Link></li>
-          <li><Link href={"/blog"} className="hover:text-gray-400">Blog</Link></li>
-          <li><Link href={"/contact"} className="hover:text-gray-400">Contact</Link></li>
-          <li><Link href={"/pages"} className="hover:text-gray-400">Pages</Link></li>
+            <li>
+              <Link href="/about" className="hover:text-gray-400">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="hover:text-gray-400">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="hover:text-gray-400">
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link href="/pages" className="hover:text-gray-400">
+                Pages
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -92,12 +112,30 @@ export default function Header() {
           isMenuOpen ? "block" : "hidden"
         } md:hidden flex flex-col items-center space-y-4 p-4 bg-[#252B42] text-white`}
       >
-        <a href="#" className="hover:bg-gray-700 px-4 py-2">Home</a>
-        <a href="#" className="hover:bg-gray-700 px-4 py-2">Shop</a>
-        <a href="#" className="hover:bg-gray-700 px-4 py-2">About</a>
-        <a href="#" className="hover:bg-gray-700 px-4 py-2">Blog</a>
-        <a href="#" className="hover:bg-gray-700 px-4 py-2">Contact</a>
-        <a href="#" className="hover:bg-gray-700 px-4 py-2">Pages</a>
+        <Link href="/" className="hover:bg-gray-700 px-4 py-2">
+          Home
+        </Link>
+        {links.map((link) => (
+          <Link
+            key={link.name}
+            href={link.path}
+            className="hover:bg-gray-700 px-4 py-2"
+          >
+            {link.name}
+          </Link>
+        ))}
+        <Link href="/about" className="hover:bg-gray-700 px-4 py-2">
+          About
+        </Link>
+        <Link href="/blog" className="hover:bg-gray-700 px-4 py-2">
+          Blog
+        </Link>
+        <Link href="/contact" className="hover:bg-gray-700 px-4 py-2">
+          Contact
+        </Link>
+        <Link href="/pages" className="hover:bg-gray-700 px-4 py-2">
+          Pages
+        </Link>
         <div className="flex items-center space-x-4 pt-4">
           <CiSearch className="text-[#23A6F0] text-xl cursor-pointer" />
           <CiShoppingCart className="text-[#23A6F0] text-xl cursor-pointer" />

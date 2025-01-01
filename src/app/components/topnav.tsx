@@ -25,7 +25,7 @@ export default function TopNav() {
               <MdMailOutline />
             </i>
             <a href="mailto:michelle.rivera@example.com" className="text-white">
-              michelle.rivera@example.com
+              farah.shabir@hotmail.com
             </a>
           </div>
         </div>

@@ -8,12 +8,14 @@ export default function Neural() {
           <div className="w-[700px] h-[665px] ml-12">
             <Image src={none} alt="" />
           </div>
+
           <div className="w-[700px] h-[665px]">
             <div className="w-[560px] h-[326px] float-right mt-36">
               <p className="text-[#BDBDBD]">SUMMER 2020</p>
               <h1 className="text-5xl mt-3">
                 Part of the Neural <br></br> Universe
               </h1>
+
               <p className="text-[#737373] text-xl mt-4">
                 We know how large objects will act, <br></br>but things on a
                 small scale.
